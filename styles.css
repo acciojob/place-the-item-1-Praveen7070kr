@@ -1,2 +1,13 @@
+/* CSS for the holder */
+.holder {
+  display: flex;             /* Use flexbox */
+  flex-wrap: wrap;           /* Allow items to wrap onto the next line */
+  justify-content: space-between; /* Distribute items with space between them, first and last will touch the edges */
+  width: 100%;               /* Ensure holder takes full width of the screen */
+}
 
-/* Your CSS Code here. */
+/* CSS for the individual items */
+.item {
+  flex: 1 1 auto;            /* Items can grow and shrink, but have a minimum size */
+  margin: 10px;              /* Optional: gives space between items */
+}
